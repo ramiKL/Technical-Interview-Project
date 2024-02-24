@@ -1,0 +1,79 @@
+.HeaderText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.HeaderText h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 400%; /* Adjust as needed */
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+.SearchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 2%;
+
+}
+
+.dropDownButton {
+  position:10% 10%;
+  top: 10%;
+  right: 10%;
+  width: 10%;
+  padding: 2%;
+}
+
+.dropDownButton::before {
+  position:10% 10%;
+  top: 10%;
+  right: 10%;
+  width: 10%;
+  padding: 2%;
+  transform: rotate(45deg);
+}
+
+
+
+.PwrPriceGrid{
+  background-color: #F9F8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  width: 30%;
+  gap: 20px;
+  margin-top: 2%; 
+  border-radius: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  right: 30%;
+
+
+}
+
+.infologo{
+  margin: 0 auto;
+  right: 10%;
+  display: flex;
+  position: relative;
+
+}
+
+.pInfo{
+  margin: 0 auto;
+  right: 40%;
+  top:100%;
+  display: flex;
+  position: relative;
+}
+
+
+
